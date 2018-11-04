@@ -1,0 +1,162 @@
+  p{
+    word-spacing: 4px;
+    text-align: justify;
+    text-indent: 40px;
+  }
+  
+  em{
+    font-style: italic;
+    letter-spacing: 2px;
+  } 
+   
+  h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+  }
+
+  h2{
+    display: inline;
+    padding-right: 30px;  
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .contenido{
+    font-family: Verdana,Geneva,sans-serif;
+    width: 75%;
+    margin: 0px auto;
+    padding: 100px 80px 30px 80px;
+    background-color: rgba(0, 0, 0, 0.808);
+    color: white;
+  
+  }
+  
+  .menu {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    width: 87%;
+    margin-left: 80px;
+    margin-top: 25px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+  .menu ul {
+    list-style-type: none;
+    position: relative
+  }
+  .menu ul li {
+    display: inline-block;
+    margin: 5px 20px 5px 10px;
+    padding: 10px;
+  }
+
+  .menu ul li ul{
+    position: absolute;
+    padding: 0px;
+  }
+
+  .menu ul li ul li{
+    display: none;
+    text-align: left;
+    margin: 6px 0px 6px 0px;
+  }  
+
+  .menu ul li ul li:hover {
+    font-weight: bolder;
+    background-color: rgba(36, 36, 36, 0.795)
+  }
+
+  .menu ul li:hover ul li{
+    display: block; 
+  }
+
+  .menu ul li:hover  a {
+    color: rgb(214, 214, 214);
+  }
+  .menu ul li a {
+    display: block;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .titulo{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+
+
+  .glosario li{
+    margin-top: 15px;
+    text-align: justify;
+  }
+
+  .centrar{
+    text-align: center;
+  }
+
+  .derecha{
+    text-align: right
+  }
+
+  #biog{
+    background-image: url("/imagenes/libros.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  #sistema{
+    background-image: url("/imagenes/castillo.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  #nunca{
+    background-image: url("/imagenes/devil.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  #mixti{
+    background-image: url("/imagenes/carta.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  #frances{
+    background-image: url("/imagenes/elegante.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  #aliento{
+    background-image: url("/imagenes/aliento.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  #foto-autor{
+    float: left;
+    margin-right: 15px;
+    border-radius: 100%;
+    box-shadow: 0 0 3px black;
+  }
+
+
+  #portada{
+    max-width: 100%;
+    height: auto;
+  }
+
+  #frases li{
+    font-weight: lighter;
+    letter-spacing: 2px;
+  }
+
